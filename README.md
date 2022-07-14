@@ -29,25 +29,19 @@
 
 ## :dart: Description
 
-ATM is an application that allows you to add as many pending tasks as you have, simply by typing and pressing enter thanks to the user interface built with responsive concepts such as functional components and hooks.
+This project tries to simulate an ATM with two basic operations: Cash Back and Deposit through a UI with logic implemented with JS in React.
 
 ## :sparkles: Roadmap
 
 The characteristics that this project currently has are:
 
-:heavy_check_mark: You can add pending tasks just by typing them and pressing enter in the only input (last box) of the application.
+:heavy_check_mark: You can deposit any amount of money to an example bank account.
 
-:heavy_check_mark: You can remove completed tasks by clicking the red button with the symbol :heavy_minus_sign:.
+:heavy_check_mark: You can make a cash back without producing a negative balance in the example bank account.
 
-The main objective of this project is to begin to handle the combined syntax of JS and HTML to create jsx files to build applications with React. It also seeks to work with the state and the nesting of functional components of a React application. Until this update the initial purpose has been fulfilled, however, it is possible to make improvements to complement the project within which the following are proposed:-->
+:heavy_check_mark: You can monitor the balance of the example bank account
 
-:pushpin: Make a connection to a small database so that different users can access their own ATM.
-
-:pushpin: Differentiate between completed tasks and deleted tasks.
-
-:pushpin: Add a small trash can where recent deleted tasks are located.
-
-:pushpin: Allow a user to have more than one ATM
+:heavy_check_mark: You can enable or disable the available banking operations
 
 ## :white_check_mark: Requirements
 
@@ -61,7 +55,11 @@ $ git clone https://github.com/AlexisCastro12/ATM.git
 
 ```
 
-Find the folder in the path where the clone was made, open the './index.html' file in any browser (Chrome recommended) and start adding your pending tasks.
+Find the folder in the path where the clone was made, open the './index.html' file in any browser (Chrome recommended) and try it!
+
+To enable the operations, select one of those available in the dropdown control. Then, enter the desired amount to withdraw or deposit in the input control and apply the movement through the submit button. The balance will be updated instantly!
+
+Please note that any withdrawal attempt of an amount greater than the amount available in the sample account will be blocked
 
 ## :wrench: Support
 
